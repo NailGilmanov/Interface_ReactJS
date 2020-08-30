@@ -1,0 +1,57 @@
+body {
+  background: white;
+}
+
+ul {
+  padding: 0;
+}
+
+.even {
+  background-color: #f0f0f0;
+}
+
+.app_wrapper {
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+}
+
+img {
+  height: 240px;
+
+}
+
+.btn {
+  float: right;
+  margin: 15px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.btn-success {
+  margin-right: 50px;
+}
+
+/* .criterial__box {
+  width: 300px !important;
+} */
+
+.criterial_item_stats {
+  line-height: 1.6;
+  /* font-weight: 500; */
+  font-size: 1.2rem;
+  padding-left: 20px;
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.criterial_item {
+  line-height: 1.6;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-left: 20px;
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.pad {
+  padding-right: 30px
+}
